@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+/* Seletores:
+em HTML  quando utilizar id = em CSS utiliza a # para identificar
+em HTML quando utilizar class = em CSS é  utiliza o . para identificar
+*/
+
+body {
+    background-color:rgb(38, 102, 81);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1#principal{
+    background-color: rgb(53, 167, 129) ;
+    color: rgb(38, 102, 81);
+    text-align: center;
+}
+
+.titulo{
+    color: brown;
+    background-color: antiquewhite;
+    text-align: center;
+
+}
+
+.basico {
+    color: bisque;
+}
+.intermediario {
+    color: aliceblue;
+}
+
+.avancado {
+    color: antiquewhite;
+}

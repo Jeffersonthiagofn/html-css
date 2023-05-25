@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos em HTML5</title>
+</head>
+<body>
+    <h1>Vídeos hospedados localmente</h1>
+    <p>Está vídeo está hospedado localemente</p>
+    <video width="560" controls poster="imagens/limoes-capa.png">
+        <source src="midia/meu-video.mp4" type="video/mp4">
+        <source src="midia/meu-video.m4v" type="video/m4v">
+        <source src="midia/meu-video.ogv" type="video/ogv">
+    </video>
+    
+    <h1>Vídeo hospedado do youtube</h1> <!--Basta ir ao ytube e clicar em compartilhar, após isso é só copiar o codigo que etará em incorporar-->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/OzUnqQk4eOg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    <h1>Vídeo hospedado do vimeo</h1> <!--Basta ir ao viemo e clicar em compartilhar, lembrar de remover a tag <p>, que vem junto ao codigo.-->
+    <iframe src="https://player.vimeo.com/video/236093401?h=030454946a&portrait=0" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
+</body>
+</html>
