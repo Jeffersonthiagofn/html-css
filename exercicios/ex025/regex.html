@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<html>
+<body>
+
+<h1>Exemplo</h1>
+
+<p>Um formulário com um campo de senha que deve conter 8 ou mais caracteres que sejam pelo menos um número e uma letra maiúscula e uma letra minúscula:</p>
+
+<form action="/action_page.php">
+  <label for="pwd">Senha:</label>
+  <input type="password" id="pwd" name="pwd" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Deve conter pelo menos um número e uma letra maiúscula e minúscula e pelo menos 8 ou mais caracteres">
+  <input type="submit">
+</form>
+
+</body>
+
+</html>

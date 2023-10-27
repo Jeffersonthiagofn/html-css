@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Tente abrir esse site em varios dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+    <picture>
+        <source media="(max-width:750px )" srcset="Imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="Imagens/foto-m.png" type="image/png">
+        <img src="Imagens/foto-g.png" alt="Imagen flexível">
+    </picture>
+    <h1>Ropoduzindo Áudios</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5.</p>
+    <audio preload="metadata" controls> <!--Não deixar o parametro preload sem nada, aconsellhado sempre deixar metada, pois ele carrega apenas as informações, o auto vai carregar tudo e o none, não carrega nada. O parametro controls, serve para aparecer a barra de navegaçaõ do audio.-->
+        <source src="midia/Savior - Telecasted.mp3" type="audio/mpeg">
+    </audio>
+
+</body>
+</html>

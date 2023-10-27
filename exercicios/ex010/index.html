@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalanho com links</title>
+</head>
+<body>
+    <h1>Usando links externos</h1>
+    <p>Você pode acessar o meu  projeto <a href="https://jeffersonthiagofn.github.io/Snapclima/" target="_blank" rel="external">Snapclima</a>  desenvolvido em HTML, CSS e JavaScript.</p>  <!--A tag <a>, seve para ancoragem de links. Usando o target="_blank" ao clicar no link ele irá abrir em uma nova guia, é o aconselhavel a sempre se fazer, para abrir um link externo. Já o target _self serve para abrir o link na propria pagina, indicado para links do mesmo site.-->
+    <h1>Usando link interno</h1>
+    <p>Está a primeira pagina do site. Se você quiser, pode acessar também a minha <a href="pag002.html" target="_self" rel="next">Segunda página.</a></p> <!--Essa ancoragem  serve para indexar pagina no mesmo arquivo, utilizando o atalho ctrl + espaço. O rel next serve para indicar que é a proxima página, e o prev, que é a página anterior.-->
+    <p>Você também pode acessar a nossa <a href="Noticias/pag003.html"target="_self" rel="next">página de notícias.</a></p>
+    <h1>Links para download</h1>
+    <ul>
+        <li><a href="Livro/10 - Ligações em toda parte.pdf" download="10 - Ligações em toda parte.pdf" type="application/pdf">Baixar livro em PDF</a></li> <!--Quando não se tem o link ainda para adcionar é bom colocar uma # onde seria o link, para não ficar vazio no codigo.-->
+        <li><a href="Livro/Ligações em toda parte.zip" download="Ligações em toda parte.zip" type="application/zip">Baixar livro em ZIP</a></li>
+    </ul>
+
+</body>
+</html>
